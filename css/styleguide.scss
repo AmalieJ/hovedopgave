@@ -1,0 +1,103 @@
+body {
+    background-color: aquamarine;
+}
+/* Farver */
+$blue: #1c2659;
+$orange: #D27411;
+$black: #000000;
+$white: #FFFFFF;
+
+@mixin color-style {
+    height: 4rem;
+    border-style: solid;
+    border-color: $black;
+    border-width: thin;
+    width: 4rem;
+
+  }
+
+.blue {
+    background-color: $blue;
+    @include color-style;
+}
+  
+.orange {
+    background-color: $orange;
+    @include color-style;
+}
+  
+.white {
+    background-color: $white;
+    @include color-style;
+}
+  
+.black {
+    background-color: $black;
+    @include color-style;
+}
+
+
+/* Grid */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+  
+.menu {
+    grid-column: span 3;
+    position: fixed;
+}
+
+ .overskrift {
+    grid-column: span 3;
+    margin-top: 50px;
+}
+ 
+ .elementer-overordnet {
+    grid-column: span 1;
+}
+  
+.beskrivelse-overordnet {
+    grid-column: span 1;
+    width: 35rem;
+}
+  
+.kode-overordnet {
+    grid-column: span 1;
+}
+
+
+/* Dropdown Menu */
+/* Button */
+.dropbtn {
+    background-color: $blue;
+    color: $white;
+    padding: 1rem;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    &:hover, &:focus {
+        background-color: $orange;
+    }  
+}
+  
+  
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    background-color: $white;
+    min-width: 10rem;
+    a {
+        color: black;
+        padding: 0.75rem 1rem;
+        text-decoration: none;
+        display: block;
+        &:hover {
+            background-color: $orange;
+            color: $white;
+        }
+      }
+}
+  
+/* Show the dropdown menu (when the user clicks on the dropdown button) */
+.show {display:block;}
