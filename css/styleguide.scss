@@ -1,3 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;
+  font: 400 15px "Roboto Condensed", sans-serif;
+}
+
+/* font til overskrifter */
+h1 {
+  font: 700 64px "Roboto Condensed", sans-serif;
+}
+
+h2 {
+  font: 700 32px "Montserrat", sans-serif;
+}
+
+
 body {
     background-color: aquamarine;
 }
