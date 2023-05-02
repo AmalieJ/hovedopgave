@@ -138,4 +138,6 @@ body {
 /* Ikoner */
 .material-icons-round {
   color: #D27411;
+  transform: scale(1.8);
+  margin: 1rem;
 }
