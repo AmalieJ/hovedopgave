@@ -51,6 +51,7 @@ body {
 
 .menu {
   grid-column: span 3;
+  display: fixed;
 }
 
 .overskrift {
