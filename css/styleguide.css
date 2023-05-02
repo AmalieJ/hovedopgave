@@ -143,3 +143,9 @@ body {
   transform: scale(1.8);
   margin: 1rem;
 }
+
+.fa-solid, .fa-brands {
+  color: #D27411;
+  font-size: 2.5rem;
+  margin: 1.5rem;
+}
