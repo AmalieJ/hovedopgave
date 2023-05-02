@@ -52,8 +52,7 @@ $white: #FFFFFF;
 }
 
 .menu {
-    grid-column: span 3;    
-
+    grid-column: span 3;
 }
 
  .overskrift {
@@ -101,8 +100,10 @@ $white: #FFFFFF;
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
     display: none;
+    position: absolute;
     background-color: $white;
-    min-width: 10rem;
+    width: 10rem;
+
     a {
         color: black;
         padding: 0.75rem 1rem;
@@ -114,6 +115,8 @@ $white: #FFFFFF;
         }
       }
 }
+
+
 
 /* Show the dropdown menu (when the user clicks on the dropdown button) */
 .show {display:block;}
