@@ -14,6 +14,7 @@ $white: #FFFFFF;
     border-color: $black;
     border-width: thin;
     width: 4rem;
+    margin: auto;
   }
 
 .blue {
@@ -38,33 +39,48 @@ $white: #FFFFFF;
 
 
 /* Grid */
+
+@mixin center {
+  text-align: center;
+  width: 33.33%;
+  }
+
+
 .grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    justify-content: center;
 }
 
 .menu {
     grid-column: span 3;
-    position: fixed;
+
 }
 
  .overskrift {
     grid-column: span 3;
-    margin-top: 50px;
 }
 
  .elementer-overordnet {
-    grid-column: span 1;
+    grid-column: span 3;
 }
 
-.beskrivelse-overordnet {
-    grid-column: span 1;
-    width: 35rem;
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
 }
 
-.kode-overordnet {
-    grid-column: span 1;
+.element {
+  @include center;
+}
+
+.beskrivelse {
+  @include center;
+}
+
+.kode {
+  @include center;
 }
 
 

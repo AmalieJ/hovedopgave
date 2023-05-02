@@ -10,6 +10,7 @@ body {
   border-color: #000000;
   border-width: thin;
   width: 4rem;
+  margin: auto;
 }
 
 .orange {
@@ -19,6 +20,7 @@ body {
   border-color: #000000;
   border-width: thin;
   width: 4rem;
+  margin: auto;
 }
 
 .white {
@@ -28,6 +30,7 @@ body {
   border-color: #000000;
   border-width: thin;
   width: 4rem;
+  margin: auto;
 }
 
 .black {
@@ -37,36 +40,47 @@ body {
   border-color: #000000;
   border-width: thin;
   width: 4rem;
+  margin: auto;
 }
 
 /* Grid */
 .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  justify-content: center;
 }
 
 .menu {
   grid-column: span 3;
-  position: fixed;
 }
 
 .overskrift {
   grid-column: span 3;
-  margin-top: 50px;
 }
 
 .elementer-overordnet {
-  grid-column: span 1;
+  grid-column: span 3;
 }
 
-.beskrivelse-overordnet {
-  grid-column: span 1;
-  width: 35rem;
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
 }
 
-.kode-overordnet {
-  grid-column: span 1;
+.element {
+  text-align: center;
+  width: 33.33%;
+}
+
+.beskrivelse {
+  text-align: center;
+  width: 33.33%;
+}
+
+.kode {
+  text-align: center;
+  width: 33.33%;
 }
 
 /* Dropdown Menu */
