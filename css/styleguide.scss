@@ -1,6 +1,7 @@
 body {
     background-color: aquamarine;
 }
+
 /* Farver */
 $blue: #1c2659;
 $orange: #D27411;
@@ -13,7 +14,6 @@ $white: #FFFFFF;
     border-color: $black;
     border-width: thin;
     width: 4rem;
-
   }
 
 .blue {
@@ -80,7 +80,6 @@ $white: #FFFFFF;
         background-color: $orange;
     }  
 }
-  
   
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
