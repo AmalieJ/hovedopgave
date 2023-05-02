@@ -20,17 +20,17 @@ $white: #FFFFFF;
     background-color: $blue;
     @include color-style;
 }
-  
+
 .orange {
     background-color: $orange;
     @include color-style;
 }
-  
+
 .white {
     background-color: $white;
     @include color-style;
 }
-  
+
 .black {
     background-color: $black;
     @include color-style;
@@ -41,8 +41,9 @@ $white: #FFFFFF;
 .grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
 }
-  
+
 .menu {
     grid-column: span 3;
     position: fixed;
@@ -52,16 +53,16 @@ $white: #FFFFFF;
     grid-column: span 3;
     margin-top: 50px;
 }
- 
+
  .elementer-overordnet {
     grid-column: span 1;
 }
-  
+
 .beskrivelse-overordnet {
     grid-column: span 1;
     width: 35rem;
 }
-  
+
 .kode-overordnet {
     grid-column: span 1;
 }
@@ -78,9 +79,9 @@ $white: #FFFFFF;
     cursor: pointer;
     &:hover, &:focus {
         background-color: $orange;
-    }  
+    }
 }
-  
+
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
     display: none;
@@ -97,6 +98,6 @@ $white: #FFFFFF;
         }
       }
 }
-  
+
 /* Show the dropdown menu (when the user clicks on the dropdown button) */
 .show {display:block;}
