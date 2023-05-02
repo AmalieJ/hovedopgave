@@ -134,3 +134,8 @@ body {
 .show {
   display: block;
 }
+
+/* Ikoner */
+.material-icons-round {
+  color: #D27411;
+}
