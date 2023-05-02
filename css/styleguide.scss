@@ -7,12 +7,13 @@
 /* font til overskrifter */
 h1 {
   font: 700 64px "Roboto Condensed", sans-serif;
+  color: #D27411;
 }
 
 h2 {
   font: 700 32px "Montserrat", sans-serif;
+  color: #D27411;
 }
-
 
 body {
     background-color: aquamarine;
@@ -139,5 +140,3 @@ $white: #FFFFFF;
   transform: scale(1.8);
   margin: 1rem;
 }
-
-
