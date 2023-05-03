@@ -83,6 +83,7 @@ body {
 
 .overskrift {
   grid-column: span 3;
+  margin: 3rem;
 }
 
 .elementer-overordnet {
@@ -120,6 +121,7 @@ body {
 .dropbtn {
   background-color: #1c2659;
   color: #FFFFFF;
+  width: 8rem;
   padding: 1rem;
   font-size: 1rem;
   border: none;
@@ -134,7 +136,7 @@ body {
   display: none;
   position: absolute;
   background-color: #FFFFFF;
-  width: 10rem;
+  width: 8rem;
 }
 .dropdown-content a {
   color: black;

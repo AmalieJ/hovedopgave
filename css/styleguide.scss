@@ -81,6 +81,7 @@ $white: #FFFFFF;
 
  .overskrift {
     grid-column: span 3;
+    margin: 3rem;
 }
 
  .elementer-overordnet {
@@ -115,6 +116,7 @@ $white: #FFFFFF;
 .dropbtn {
     background-color: $blue;
     color: $white;
+    width: 8rem;
     padding: 1rem;
     font-size: 1rem;
     border: none;
@@ -129,7 +131,7 @@ $white: #FFFFFF;
     display: none;
     position: absolute;
     background-color: $white;
-    width: 10rem;
+    width: 8rem;
 
     a {
         color: black;
