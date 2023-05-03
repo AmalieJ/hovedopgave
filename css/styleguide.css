@@ -60,6 +60,16 @@ body {
   margin: auto;
 }
 
+.hoverorange {
+  background-color: #DB9040;
+  height: 4rem;
+  border-style: solid;
+  border-color: #000000;
+  border-width: thin;
+  width: 4rem;
+  margin: auto;
+}
+
 /* Grid */
 .grid {
   display: grid;

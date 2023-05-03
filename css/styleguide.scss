@@ -55,6 +55,11 @@ $white: #FFFFFF;
     @include color-style;
 }
 
+.hoverorange {
+  background-color: $hoverorange;
+  @include color-style;
+}
+
 /* Grid */
 
 @mixin center {
