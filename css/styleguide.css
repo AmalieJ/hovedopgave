@@ -16,10 +16,6 @@ h2 {
   color: #D27411;
 }
 
-body {
-  background-color: aquamarine;
-}
-
 /* Farver */
 .blue {
   background-color: #1c2659;
@@ -105,11 +101,14 @@ body {
 .beskrivelse {
   text-align: center;
   width: 33.33%;
+  margin: 0 2rem 0 2rem;
 }
 
 .kode {
   text-align: center;
   width: 33.33%;
+  margin: 0 2rem 0 2rem;
+  overflow-y: hidden;
 }
 
 .element-navn {

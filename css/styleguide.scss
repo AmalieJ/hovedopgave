@@ -17,10 +17,6 @@ h2 {
   color: #D27411;
 }
 
-body {
-    background-color: aquamarine;
-}
-
 /* Farver */
 $blue: #1c2659;
 $orange: #D27411;
@@ -101,10 +97,13 @@ $white: #FFFFFF;
 
 .beskrivelse {
   @include center;
+  margin: 0 2rem 0 2rem;
 }
 
 .kode {
   @include center;
+  margin: 0 2rem 0 2rem;
+  overflow-y: hidden;
 }
 
 .element-navn {
