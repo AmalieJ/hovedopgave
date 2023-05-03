@@ -149,3 +149,10 @@ body {
   font-size: 2.5rem;
   margin: 1.5rem;
 }
+
+/* Knapper */
+.button {
+  background-color: #D27411;
+  height: 5rem;
+  width: 5rem;
+}
