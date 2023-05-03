@@ -100,6 +100,10 @@ body {
   width: 33.33%;
 }
 
+.element-navn {
+  margin-bottom: 1rem;
+}
+
 /* Dropdown Menu */
 /* Button */
 .dropbtn {
@@ -153,6 +157,28 @@ body {
 /* Knapper */
 .button {
   background-color: #D27411;
-  height: 5rem;
-  width: 5rem;
+  margin: auto;
+  border-radius: 0.3rem;
+  width: 10rem;
+}
+.button p {
+  padding: 0.6rem;
+}
+.button:hover {
+  background-color: #DB9040;
+}
+
+.button-border {
+  background-color: #D27411;
+  border: 0.15rem solid #FFFFFF;
+  margin: auto;
+  border-radius: 0.3rem;
+  width: 10rem;
+}
+.button-border p {
+  padding: 0.6rem;
+}
+.button-border:hover {
+  border: 0.15rem solid #DB9040;
+  background-color: #DB9040;
 }

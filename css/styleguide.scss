@@ -22,6 +22,7 @@ body {
 /* Farver */
 $blue: #1c2659;
 $orange: #D27411;
+$hoverorange: #DB9040;
 $black: #000000;
 $white: #FFFFFF;
 
@@ -98,6 +99,9 @@ $white: #FFFFFF;
   @include center;
 }
 
+.element-navn {
+  margin-bottom: 1rem;
+}
 
 /* Dropdown Menu */
 /* Button */
@@ -148,13 +152,29 @@ $white: #FFFFFF;
 }
 
 /* Knapper */
+@mixin button-style {
+  margin: auto;
+  border-radius: 0.3rem;
+  width: 10rem;
+  p {
+    padding: 0.6rem;
+  }
+}
 
 .button {
   background-color: $orange;
-  height: 5rem;
-  width: 5rem;
+  @include button-style;
+  &:hover {
+    background-color: $hoverorange;
+  }
 }
 
 .button-border {
-
-}
+  background-color: $orange;
+  border: 0.15rem solid $white;
+  @include button-style;
+    &:hover {
+      border: 0.15rem solid $hoverorange;
+      background-color: $hoverorange;
+    }
+  }
