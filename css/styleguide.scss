@@ -10,23 +10,23 @@ body {
   background-color: #e0e0e0;
 }
 
-/* font til overskrifter */
-h1 {
-  font: 700 64px "Roboto Condensed", sans-serif;
-  color: #D27411;
-}
-
-h2 {
-  font: 700 32px "Montserrat", sans-serif;
-  color: #D27411;
-}
-
 /* Farver */
 $blue: #1c2659;
 $orange: #D27411;
 $hoverorange: #DB9040;
 $black: #000000;
 $white: #FFFFFF;
+
+/* font til overskrifter */
+h1 {
+  font: 700 64px "Roboto Condensed", sans-serif;
+  color: $orange;
+}
+
+h2 {
+  font: 700 32px "Montserrat", sans-serif;
+  color: $orange;
+}
 
 @mixin color-style {
     height: 4rem;

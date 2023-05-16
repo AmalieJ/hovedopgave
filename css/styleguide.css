@@ -9,6 +9,7 @@ body {
   background-color: #e0e0e0;
 }
 
+/* Farver */
 /* font til overskrifter */
 h1 {
   font: 700 64px "Roboto Condensed", sans-serif;
@@ -20,7 +21,6 @@ h2 {
   color: #D27411;
 }
 
-/* Farver */
 .blue {
   background-color: #1c2659;
   height: 4rem;
