@@ -115,6 +115,10 @@ h2 {
   overflow-y: hidden;
 }
 
+.koden {
+  text-align: start;
+}
+
 .element-navn {
   margin-bottom: 1rem;
 }
